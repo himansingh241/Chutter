@@ -1,16 +1,21 @@
-# chutter
+# Chutter :zap:
 
-A new Flutter project.
+Chutter is a chat application written in [flutter](https://flutter.dev/) with [Firebase](https://firebase.google.com/) as backend.
 
-## Getting Started
+## Demo:
 
-This project is a starting point for a Flutter application.
+![App Demo](./screenrec.gif)
 
-A few resources to get you started if this is your first Flutter project:
+## What I Learned:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Creating **responsive UI** that doesn't break on different screen sizes.
+- **Animations**
+- **Firebase Auth** for authenticating the users.
+- **Firebase Firestore** as a backend in flutter.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## TODO:
+
+- Use **Provider** for state management.
+- Create user feedback for user not registered while logging in with firebase.
+- Create a list of users for the welcome screen.
+- Push **notifications** on new message.
