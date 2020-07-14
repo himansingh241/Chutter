@@ -33,6 +33,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   ),
                 ),
                 TypewriterAnimatedTextKit(
+                  repeatForever: true,
+                  speed: Duration(milliseconds: 600),
                   text: ['Chutter'],
                   textStyle: TextStyle(
                     color: Colors.grey,

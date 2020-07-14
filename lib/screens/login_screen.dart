@@ -79,10 +79,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     );
                     if (user != null) {
                       Navigator.pushNamed(context, ChatScreen.id);
+                      setState(() {
+                        showSpinner = false;
+                        FocusScope.of(context).unfocus();
+                      });
                     }
-                    setState(() {
-                      showSpinner = true;
-                    });
                   } catch (e) {
                     print(e.toString());
                   }
